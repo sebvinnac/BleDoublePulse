@@ -85,6 +85,8 @@ namespace ble.net.sampleapp.viewmodel
             //
             // You can also specify additional scan settings like the amount of power to direct to the Bluetooth antenna:
             // e.g.:
+            new ScanFilter()
+               .SetAdvertisedDeviceName("monodoub"),
             //    new ScanSettings()
             //    {
             //       Mode = ScanMode.LowPower,
